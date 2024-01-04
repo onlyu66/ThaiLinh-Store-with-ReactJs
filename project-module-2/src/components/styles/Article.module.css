@@ -1,0 +1,187 @@
+.item {
+  width: 19%;
+  background-color: white;
+  text-align: center;
+}
+.item img {
+  margin: 0 auto;
+  cursor: pointer;
+  /* height: 300px; */
+}
+.item p:nth-child(2) {
+  font-weight: 700;
+  color: rgb(34, 34, 34);
+  cursor: pointer;
+}
+.item p:nth-child(2):hover {
+  color: #146561;
+}
+.item p:nth-child(3) {
+  font-weight: 700;
+  color: rgb(254, 27, 27);
+  font-size: 19px;
+}
+.appleReseller div,
+.prominentPhone div div,
+.prominentSpeakersHeadphones .divSpeakerHeadphone,
+.accessory .divAccessory,
+.technologyNews div,
+.divCustomers {
+  background-color: #208f89;
+  padding: 6px 40px 5px 100px;
+  font-weight: 700;
+  color: white;
+}
+
+.prominentPhone div ul li {
+  margin: 3px;
+  background-color: #ffffff;
+  padding: 3px 8px;
+  border-radius: 5px;
+  border: 1px solid rgb(174, 172, 172);
+  font-size: 14.5px;
+  cursor: pointer;
+}
+.prominentPhone div ul li:last-child {
+  background-color: #208f89;
+  color: white;
+}
+.prominentPhone div ul li:hover {
+  background-color: #208f89;
+  color: white;
+}
+.prominentPhone div ul li:active {
+  font-weight: 700;
+}
+.ads img {
+  width: 24.1%;
+  margin: 5px;
+  margin-top: 15px;
+}
+.itemAccessory {
+  width: 100%;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 0;
+}
+.itemAccessory div {
+  width: 17%;
+  text-align: center;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.itemAccessory div img {
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgb(243, 239, 239);
+  padding: 20px;
+  border-radius: 10px;
+}
+.itemAccessory div p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+/* .itemAccessory div img:hover{
+    background-color: white;
+    border: 1px solid #208f89;
+} */
+.itemAccessory div:hover img {
+  background-color: white;
+  border: 1px solid #208f89;
+}
+.itemAccessory div:hover p {
+  color: #208f89;
+}
+.itemCustomer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: white;
+  /* margin-left: 20px; */
+  /* margin-right: 20px !important; */
+  border-radius: 10px;
+}
+.itemCustomer > div:nth-child(1) {
+  flex: 1;
+  margin: 0 0 20px 110px;
+}
+.itemCustomer > div:nth-child(2) {
+  flex: 1;
+  margin: 0 110px 20px 0;
+}
+.divCustomer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.divCustomer img {
+  flex: 1;
+  /* width: 45%; */
+  /* height: 100%; */
+  border-radius: 10px;
+}
+.divCustomer div {
+  flex: 1;
+  /* width: 55%; */
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.divCustomer div h5 {
+  font-size: 18px;
+}
+.divCustomer div h6 {
+  font-size: 13px;
+  color: #146561;
+}
+.divCustomer div p {
+  font-size: 13px;
+}
+.addToCartBtn {
+  background-color: rgb(232, 232, 232);
+  top: 50px;
+  left: 1px;
+  width: 238px;
+  height: 122px;
+}
+.addToCartBtn button{
+  background-color: rgb(253, 251, 251);
+  border: 2px solid #208f89;
+  padding: 8px;
+  margin-top: 40px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.addToCartBtn button:hover{
+  background-color: #208f89;
+  color: #ffffff;
+}
+.slider{
+  margin-bottom: 30px;
+}
+.slider .item{
+  /* margin: 10px !important; */
+  height: 346px;
+}
+.appleReseller .addToCartBtn, .prominentPhone .addToCartBtn {
+  background-color: rgb(232, 232, 232);
+  top: 50px;
+  left: 1px;
+  width: 226px;
+  height: 130px;
+}
+.appleReseller .addToCartBtn button {
+  background-color: rgb(253, 251, 251);
+  border: 2px solid #208f89;
+  color: rgb(67, 67, 67);
+  padding: 8px;
+  /* margin-top: 40px; */
+  margin-left: -75px;
+  border-radius: 5px;
+  font-weight: 600;
+  width: 200%;
+}
+.appleReseller .addToCartBtn button:hover{
+  background-color: #208f89;
+  color: #ffffff;
+}

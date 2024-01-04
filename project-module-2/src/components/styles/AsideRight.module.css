@@ -1,0 +1,14 @@
+.container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80%;
+  width: 35%;
+  margin-left: 8px;
+}
+.container img {
+  width: 100%;
+}
+.div{
+    height: 100%;
+    background-color: #fafafa;
+}

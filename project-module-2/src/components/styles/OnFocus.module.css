@@ -1,0 +1,30 @@
+.hotSearch li ul li:hover {
+  color: #208f89;
+  cursor: pointer;
+}
+.history ul li span:hover {
+  color: rgb(128, 126, 126);
+}
+.history ul li button:hover {
+  color: rgb(128, 126, 126);
+}
+.suggestedProducts {
+  /* padding: 10px; */
+}
+.suggestedProducts h6 {
+  background-color: rgb(218, 215, 215);
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+}
+.suggestedProducts ul li{
+  padding: 0 20px;
+  font-weight: 700;
+}
+.suggestedProducts ul li {
+
+}
+.suggestedProducts ul li:hover {
+  background-color: rgb(240, 238, 238);
+  cursor: pointer;
+}

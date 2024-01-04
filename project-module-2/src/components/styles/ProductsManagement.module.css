@@ -1,0 +1,35 @@
+.table {
+  border-radius: 20px;
+}
+
+.table td img {
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
+.table thead tr th {
+  /* background-color: #208f89; */
+}
+.button {
+  /* background-color: #208f89 !important; */
+  border: none !important;
+  margin-top: 10px;
+  /* margin-left: 82%; */
+  
+}
+.button:hover {
+  font-weight: 600;
+  background-color: #3a3a3a !important;
+}
+
+.sortAdd{
+  width: 80%;
+  margin: 0 auto;
+}
+.sort select{
+  /* display: inline; */
+  border: 1px solid black;
+  /* height: 30px; */
+  margin-top: 15px;
+  border-radius: 7px;
+}

@@ -1,0 +1,77 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "col1 col2 col3 col4 col5 col6"
+    "col7 col7 col7 col7 col7 col7";
+  grid-template-columns: 16% 16% 16% 16% 16% 16%;
+  grid-template-rows: auto auto;
+  padding: 20px;
+  background-color: #208f89;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.container ul {
+  padding: 0;
+  margin: 0;
+}
+.container h6 {
+  color: rgb(239, 238, 238);
+}
+.container img {
+  margin: 5px;
+  border-radius: 5px;
+}
+.container .col4 p {
+  background-color: white;
+  color: #208f89;
+  font-weight: 700;
+  display: inline;
+  padding: 5px;
+  border-radius: 5px;
+}
+.container h6:hover {
+  color: white;
+  cursor: pointer;
+}
+.container li {
+  font-size: 13px;
+  color: rgb(239, 238, 238);
+}
+.container li:hover {
+  color: white;
+  cursor: pointer;
+}
+.container .col7 p {
+  font-size: 13px;
+  color: rgb(238, 236, 208);
+  text-align: center;
+  line-height: 0.4;
+}
+.container .col7 p:nth-child(2){
+    font-weight: 600;
+}
+.col1 {
+  grid-area: col1;
+}
+.col2 {
+  grid-area: col2;
+}
+.col3 {
+  grid-area: col3;
+}
+.col4 {
+  grid-area: col4;
+}
+.col5 {
+  grid-area: col5;
+}
+.col6 {
+  grid-area: col6;
+}
+.col7 {
+  grid-area: col7;
+  margin-top: 20px;
+
+}

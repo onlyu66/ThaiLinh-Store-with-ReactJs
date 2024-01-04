@@ -1,0 +1,21 @@
+.table {
+  border-radius: 20px;
+}
+
+.table td img {
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
+
+.sortAdd {
+  width: 80%;
+  margin: 0 auto;
+}
+.sort select {
+  /* display: inline; */
+  border: 1px solid black;
+  /* height: 30px; */
+  margin-top: 15px;
+  border-radius: 7px;
+}

@@ -1,0 +1,40 @@
+.body {
+  display: grid;
+  grid-template-areas:
+    "account account account"
+    "asideLeft header asideRight"
+    "asideLeft menu asideRight"
+    "asideLeft article asideRight"
+    "asideLeft footer asideRight";
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: auto auto auto auto;
+  background-color: #fafafa;
+}
+.account {
+  grid-area: account;
+}
+.header {
+  grid-area: header;
+}
+.menu {
+  grid-area: menu;
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+}
+.article {
+  grid-area: article;
+}
+.asideLeft {
+  grid-area: asideLeft;
+}
+.asideRight {
+  grid-area: asideRight;
+}
+.footer {
+  grid-area: footer;
+}
+.carousel {
+  z-index: 0;
+}

@@ -1,0 +1,118 @@
+.searchInput {
+  box-shadow: 1px 2px 7px rgb(52, 52, 52);
+  border-radius: 18px !important;
+  position: relative;
+  margin-right: 60px;
+  width: 540px !important;
+}
+.searchInput::placeholder {
+  font-size: 16px;
+  padding-left: 10px;
+  color: rgba(133, 131, 131, 0.77) !important;
+}
+.searchButton {
+  position: absolute;
+  background-color: #208f89;
+  color: aliceblue;
+  border-radius: 12px;
+  box-shadow: 1px 2px 7px rgb(126, 122, 122);
+  right: 310px;
+  top: 5px;
+}
+.searchButton:hover {
+  background-color: rgb(0, 132, 132);
+}
+/* .head {
+  padding-top: 10px;
+  
+  margin: 0px 150px;
+} */
+.logo {
+  width: 100px;
+  height: 50px;
+  object-fit: contain;
+  /* object-position: 0px -12px; */
+  margin-top: 10px;
+  margin-left: -30px;
+}
+.logos p {
+  margin-top: 20px;
+  font-size: 23px;
+  margin-left: -31px;
+  font-weight: 700;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(63, 63, 63);
+  text-decoration: none;
+  color: #208f89;
+}
+.logos p:hover {
+  color: #0f6d68;
+}
+
+.checkOrder {
+  width: 150px;
+  background-color: #208f89;
+  height: 50px;
+  display: flex;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: -20px;
+}
+.checkOrder:hover {
+  background-color: rgb(0, 132, 132);
+  font-weight: 400;
+}
+.checkOrder p {
+  font-size: 14px;
+  color: #ffff;
+  flex: 2;
+  margin-top: -5px;
+  margin-left: 9px;
+}
+.checkOrder i {
+  flex: 1;
+  /* margin-top: 10px; */
+  color: #ffff;
+}
+.group{
+  margin-left: 10px;
+}
+.cart {
+  color: #208f89;
+}
+.cart:hover {
+  color: rgb(0, 132, 132);
+}
+.quantity {
+  color: #208f89;
+}
+.headers {
+  background-color: #fafafa;
+}
+.headerCart {
+  background-color: #208f89;
+  color: #fdfdfd;
+}
+.bodyCart {
+  background-color: #fdfdfd;
+}
+
+.footerCart button:first-child {
+  border-top: 2px solid rgb(246, 37, 37);
+  padding: 10px;
+}
+.footerCart button:first-child:hover{
+  background-color: rgb(246, 37, 37);
+  color: white;
+  font-weight: 600;
+}
+.footerCart button:last-child {
+  padding: 10px;
+  border-top: 2px solid #208f89;
+}
+.footerCart button:last-child:hover{
+  background-color: #208f89;
+  color: white;
+  font-weight: 600;
+}

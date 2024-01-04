@@ -1,0 +1,134 @@
+.item {
+  background-color: white;
+}
+.filter {
+  background-color: white;
+  box-shadow: 1px 0px 5px rgb(181, 180, 180);
+  border-radius: 7px;
+  padding-left: 120px;
+}
+.filter p {
+  margin-top: 10px;
+  font-weight: 700;
+  color: #208f89;
+}
+.filter ul li {
+  margin: 0 10px;
+  padding: 10px 0;
+  cursor: pointer;
+  position: relative;
+}
+.filter ul li span {
+  margin-right: 1px;
+}
+.filter ul li:hover {
+  color: rgb(245, 69, 69);
+}
+.filter ul li:hover .subBrand {
+  visibility: visible;
+}
+.subBrand {
+  display: flex;
+  justify-content: space-around;
+  visibility: hidden;
+  position: absolute;
+  background-color: white;
+  top: 51px;
+  width: 1211px;
+  left: -300px;
+  border-radius: 7px;
+}
+.subBrand li ul li {
+  font-size: 15.5px;
+  color: #044a47;
+}
+.subBrand li ul li:hover {
+  color: #208f89;
+}
+.filter ul li:hover .subPrice {
+  visibility: visible;
+}
+.subPrice {
+  display: flex;
+  justify-content: space-around;
+  visibility: hidden;
+  position: absolute;
+  background-color: white;
+  top: 51px;
+  width: 1211px;
+  left: -427px;
+  border-radius: 7px;
+}
+.subPrice li ul li {
+  font-size: 15.5px;
+  color: #044a47;
+}
+.subPrice li ul li:hover {
+  color: #208f89;
+}
+
+.filter ul li:hover .subType {
+  visibility: visible;
+}
+.subType {
+  display: flex;
+  justify-content: space-around;
+  visibility: hidden;
+  position: absolute;
+  background-color: white;
+  top: 51px;
+  width: 1211px;
+  left: -488px;
+  border-radius: 7px;
+}
+.subType li ul li {
+  font-size: 15.5px;
+  color: #044a47;
+}
+.subType li ul li:hover {
+  color: #208f89;
+}
+.filter ul li:hover .subSort {
+  visibility: visible;
+}
+.subSort {
+  /* display: flex; */
+  /* justify-content: space-around; */
+  visibility: hidden;
+  position: absolute;
+  background-color: white;
+  top: 51px;
+  width: 170px;
+  left: 0px;
+  border-radius: 7px;
+}
+.subSort li ul li {
+  font-size: 15.5px;
+  color: #044a47;
+}
+.subSort li ul li:hover {
+  color: #208f89;
+}
+.item {
+  width: 19%;
+  background-color: white;
+  text-align: center;
+}
+.item img {
+  margin: 0 auto;
+  /* width: 80%; */
+  cursor: pointer;
+}
+.item p:nth-child(2) {
+  font-weight: 700;
+  color: rgb(34, 34, 34);
+  cursor: pointer;
+}
+.item p:nth-child(2):hover {
+  color: #146561;
+}
+.item p:nth-child(3) {
+  font-weight: 700;
+  color: rgb(254, 27, 27);
+  font-size: 19px;
+}
